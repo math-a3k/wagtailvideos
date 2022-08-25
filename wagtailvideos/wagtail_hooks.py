@@ -103,7 +103,7 @@ def hide_track_listing_main(request, menu_items):
 
 class VideoSummaryItem(SummaryItem):
     order = 300
-    template = "wagtailvideos/homepage/videos_summary.html"
+    template_name = "wagtailvideos/homepage/videos_summary.html"
 
     def get_context(self):
         return {
